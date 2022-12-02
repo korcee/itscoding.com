@@ -1,0 +1,151 @@
+:root{
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+.top{
+    top: 0;
+    z-index: 2;
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    position: fixed;
+}
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+}
+.logo span{
+    color: var(--color-primary);
+}
+.top ul{
+    list-style: none;
+    display: flex;
+}
+.top ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.top ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.top ul li a:hover{
+    color: var(--color-primary);
+}
+.dropdown{
+    display: none;
+}
+.top ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+.top ul li:hover .dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.top ul li:hover .dropdown ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdown-1{
+    display: none;
+}
+.dropdown ul li:hover .dropdown-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-black);
+}
+.main{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.basics{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pages{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.html{
+    margin-top: 80px;
+    background-image: url(../git/hero.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img{
+    border-radius: 5px 5px 5px 5px;
+}
